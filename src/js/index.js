@@ -66,6 +66,11 @@ const controlRecipe=async ()=>{
         //1)prepare UI for change
         recipeView.clearRecipe();
         renderLoader(elements.recipe);
+
+        //heighlight selected search item
+        if(state.search){
+            SearchView.highLightSelected(id);
+        }
         //2)Create new recipe object
         state.recipe =new Recipe(id);
         //Test
