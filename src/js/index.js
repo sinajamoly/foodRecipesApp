@@ -5,6 +5,8 @@ import {elements} from './views/base';
 import {renderLoader, clearLoader} from "./views/base";
 import Recipe from './models/Recipe';
 import * as SearchView from './views/searchView';
+import * as recipeView from "./views/recipeView";
+
 const state={};
 
 const controlSearch=async ()=>{
@@ -62,6 +64,8 @@ const controlRecipe=async ()=>{
     console.log(id);
     if(id){
         //1)prepare UI for change
+        recipeView.clearRecipe();
+        renderLoader(elements.recipe);
         //2)Create new recipe object
         state.recipe =new Recipe(id);
         //Test
@@ -77,8 +81,10 @@ const controlRecipe=async ()=>{
         }catch(error){
             alert('Error processing recipe!');
         }
+        clearLoader();
+        console.log(state.recipe);
+        recipeView.renderRecipe(state.recipe);
 
-        // console.log(state.recipe);
     }
 }
 window.addEventListener('hashchange',controlRecipe);

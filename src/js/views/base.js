@@ -3,7 +3,8 @@ export const elements={
     searchForm: document.querySelector('.search'),
     searchResList: document.querySelector('.results__list'),
     searchRes: document.querySelector('.results'),
-    searchResPages: document.querySelector('.results__pages')
+    searchResPages: document.querySelector('.results__pages'),
+    recipe: document.querySelector('.recipe')
 }
 
 export const elementStrings = {
@@ -22,7 +23,7 @@ export const renderLoader = parent =>{
 }
 
 export const clearLoader = ()=>{
-    const loader =document.querySelector(`.${elementStrings.loader}`);
+    const loader = document.querySelector(`.${elementStrings.loader}`);
     if(loader){
         loader.parentElement.removeChild(loader);
     }
