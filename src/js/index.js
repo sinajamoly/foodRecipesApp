@@ -4,10 +4,13 @@ import Search from './models/Search';
 import {elements} from './views/base';
 import {renderLoader, clearLoader} from "./views/base";
 import Recipe from './models/Recipe';
+import Likes from './models/Likes';
 import * as SearchView from './views/searchView';
 import * as recipeView from "./views/recipeView";
 import List from "./models/List";
 import * as listView from './views/listView';
+import * as likesView from './views/likesView';
+
 
 const state={};
 
@@ -20,6 +23,28 @@ const controlList = () =>{
         listView.renderItem(item);
         console.log(item);
     });
+}
+
+
+const controlLike = () =>{
+    if(!state.likes) state.likes = new Likes();
+    const currentID =state.recipe.id;
+
+    if(!state.likes.isLiked(currentID)){
+        const newLike =state.likes.addLike(currentID,state.recipe.title,state.recipe.author, state.recipe.img);
+        //toggle the button
+        likesView.toggleLikebtn(true);
+        //add likes to the UI list
+        likesView.renderLike(newLike);
+    }else{
+        //remove like
+        state.likes.deleteLike(currentID);
+        //toggle the button
+        likesView.toggleLikebtn(false);
+        //remove  likes to the UI list
+
+    }
+    likesView.toggleLikeMenu(state.likes.getNumLikes())
 }
 
 elements.shopping.addEventListener('click' , e=>{
@@ -37,6 +62,10 @@ elements.shopping.addEventListener('click' , e=>{
         state.list.updateCount(id,val);
     }
 });
+
+
+
+
 
 
 const controlSearch=async ()=>{
@@ -113,12 +142,13 @@ const controlRecipe=async ()=>{
             state.recipe.calcServing();
             state.recipe.calcTime();
             //5)render recipe
+            clearLoader();
+            //console.log(state.recipe);
+            recipeView.renderRecipe(state.recipe,false);
         }catch(error){
-            alert('Error processing recipe!');
+            alert(error);
         }
-        clearLoader();
-        //console.log(state.recipe);
-        recipeView.renderRecipe(state.recipe);
+
 
     }
 }
@@ -139,6 +169,9 @@ elements.recipe.addEventListener('click', e => {
         recipeView.updateServingIngredient(state.recipe);
     }else if(e.target.matches('.recipe__btn--add , .recipe__btn--add *')){
         controlList();
+    }else if(e.target.matches('.recipe__love , .recipe__love *')){
+        // Like controller
+        controlLike();
     }
     //console.log(state.recipe);
 })
