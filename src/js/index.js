@@ -146,7 +146,7 @@ const controlRecipe=async ()=>{
             //5)render recipe
             clearLoader();
             //console.log(state.recipe);
-            recipeView.renderRecipe(state.recipe,false);
+            recipeView.renderRecipe(state.recipe, state.likes.isLiked(id));
         }catch(error){
             alert(error);
         }
@@ -156,7 +156,12 @@ const controlRecipe=async ()=>{
 }
 window.addEventListener('hashchange',controlRecipe);
 window.addEventListener('load' , controlRecipe);
-
+window.addEventListener('load',()=>{
+    state.likes = new Likes();
+    state.likes.readStorage();
+    likesView.toggleLikeMenu(state.likes.getNumLikes());
+    state.likes.likes.forEach(like => likesView.renderLike(like));
+});
 // recipe button clicks
 elements.recipe.addEventListener('click', e => {
     if(e.target.matches('.btn-decrease, .btn-decrease *')){
