@@ -1,7 +1,7 @@
 import {elements} from "./base";
 export const toggleLikebtn = (isLiked) =>{
     const iconString = isLiked ? 'icon-heart' : 'icon-heart-outlined';
-    document.querySelector('.recipe__love use').setAttribute('href' ,`img/icons.svj#${iconString}`);
+    document.querySelector('.recipe__love use').setAttribute('href' ,`img/icons.svg#${iconString}`);
 }
 
 // <use href="img/icons.svg#icon-heart-outlined"></use>
@@ -18,7 +18,7 @@ export const renderLike = like=>{
                     <img src="${like.img}" alt="${like.id}">
                 </figure>
                 <div class="likes__data">
-                    <h4 class="likes__name">${like.id}</h4>
+                    <h4 class="likes__name">${like.title}</h4>
                     <p class="likes__author">${like.author}</p>
                 </div>
             </a>
@@ -28,6 +28,7 @@ export const renderLike = like=>{
 }
 
 export const deleteLike = id =>{
-    const el = document.querySelector(`.likes__link[href]*="${id}"`).parentElement;
+    console.log(id);
+    const el = document.querySelector(`.likes__link[href*="${id}"]`).parentElement;
     if (el) el.parentElement.removeChild(el);
 }

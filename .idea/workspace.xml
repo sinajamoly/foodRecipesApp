@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/js/index.js" line="133" />
+    <bookmark url="file://$PROJECT_DIR$/src/js/index.js" line="135" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827cedbf-60cb-4f9e-bef0-be9e24e340f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/models/likes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/views/likesView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/index.js" afterPath="$PROJECT_DIR$/src/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/views/base.js" afterPath="$PROJECT_DIR$/src/js/views/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/views/recipeView.js" afterPath="$PROJECT_DIR$/src/js/views/recipeView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/views/searchView.js" afterPath="$PROJECT_DIR$/src/js/views/searchView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/views/likesView.js" afterPath="$PROJECT_DIR$/src/js/views/likesView.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="39" column="35" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="45" selection-end-column="29" />
+            <state relative-caret-position="324">
+              <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -46,8 +41,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="489">
+              <caret line="148" column="54" lean-forward="false" selection-start-line="148" selection-start-column="54" selection-end-line="148" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#60#97#0" expanded="true" />
@@ -59,32 +54,13 @@
       <file leaf-file-name="likesView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/views/likesView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="360">
+              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding>
-                <marker date="1523763161981" expanded="true" signature="553:959" ph="..." />
-                <marker date="1523763161981" expanded="true" signature="608:945" ph="..." />
-                <marker date="1523763161981" expanded="true" signature="652:739" ph="..." />
-                <marker date="1523763161981" expanded="true" signature="781:928" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/views/searchView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-              <folding>
-                <marker date="1523763052029" expanded="true" signature="1042:1580" ph="..." />
-                <marker date="1523763052029" expanded="true" signature="1116:1567" ph="..." />
-                <marker date="1523763052029" expanded="true" signature="1170:1236" ph="..." />
-                <marker date="1523763052029" expanded="true" signature="1170:1286" ph="..." />
-                <marker date="1523763052029" expanded="true" signature="1338:1542" ph="..." />
-                <marker date="1523763052029" expanded="true" signature="1811:2091" ph="..." />
-                <marker date="1523763052029" expanded="true" signature="1932:1997" ph="..." />
-                <marker date="1523763052029" expanded="true" signature="1932:2068" ph="..." />
+                <marker date="1523769913441" expanded="true" signature="553:962" ph="..." />
+                <marker date="1523769913441" expanded="true" signature="608:948" ph="..." />
+                <marker date="1523769913441" expanded="true" signature="652:739" ph="..." />
+                <marker date="1523769913441" expanded="true" signature="781:931" ph="..." />
               </folding>
             </state>
           </provider>
@@ -131,7 +107,7 @@
       <file leaf-file-name="recipeView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/views/recipeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="-815">
               <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="48" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -177,9 +153,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>script</find>
-      <find>search__f</find>
       <find>shopping</find>
+      <find>search__f</find>
       <find>svg</find>
+      <find>console</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,8 +180,8 @@
         <option value="$PROJECT_DIR$/src/js/views/recipeView.js" />
         <option value="$PROJECT_DIR$/src/js/views/base.js" />
         <option value="$PROJECT_DIR$/src/js/views/searchView.js" />
-        <option value="$PROJECT_DIR$/src/js/views/likesView.js" />
         <option value="$PROJECT_DIR$/src/js/index.js" />
+        <option value="$PROJECT_DIR$/src/js/views/likesView.js" />
       </list>
     </option>
   </component>
@@ -228,7 +205,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1359" />
-    <option name="width" value="797" />
+    <option name="width" value="1132" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -344,18 +321,18 @@
       <option name="presentableId" value="Default" />
       <updated>1523574928974</updated>
       <workItem from="1523574930181" duration="6272000" />
-      <workItem from="1523600702587" duration="49576000" />
+      <workItem from="1523600702587" duration="52410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55848000" />
+    <option name="totallyTimeSpent" value="58682000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1359" y="0" width="797" height="1047" extended-state="0" />
+    <frame x="1359" y="0" width="1132" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2971506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20429105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -485,7 +462,7 @@
         <state relative-caret-position="36">
           <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -511,7 +488,7 @@
         <state relative-caret-position="198">
           <caret line="11" column="75" lean-forward="false" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -521,7 +498,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -550,22 +527,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/js/models/likes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="39" column="35" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="45" selection-end-column="29" />
+        <state relative-caret-position="450">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/views/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <marker date="1523762564414" expanded="true" signature="686:791" ph="..." />
-            <marker date="1523762564414" expanded="true" signature="704:776" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,20 +548,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/js/views/searchView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        <state relative-caret-position="467">
+          <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#60#97#0" expanded="true" />
+            <marker date="1523763052029" expanded="true" signature="1042:1580" ph="..." />
+            <marker date="1523763052029" expanded="true" signature="1116:1567" ph="..." />
+            <marker date="1523763052029" expanded="true" signature="1170:1236" ph="..." />
+            <marker date="1523763052029" expanded="true" signature="1170:1286" ph="..." />
+            <marker date="1523763052029" expanded="true" signature="1338:1542" ph="..." />
+            <marker date="1523763052029" expanded="true" signature="1811:2091" ph="..." />
+            <marker date="1523763052029" expanded="true" signature="1932:1997" ph="..." />
+            <marker date="1523763052029" expanded="true" signature="1932:2068" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/views/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <marker date="1523762564414" expanded="true" signature="686:791" ph="..." />
+            <marker date="1523762564414" expanded="true" signature="704:776" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/views/recipeView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="-815">
           <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="48" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -628,40 +619,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/models/likes.js">
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/views/searchView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        <state relative-caret-position="489">
+          <caret line="148" column="54" lean-forward="false" selection-start-line="148" selection-start-column="54" selection-end-line="148" selection-end-column="54" />
           <folding>
-            <marker date="1523763052029" expanded="true" signature="1042:1580" ph="..." />
-            <marker date="1523763052029" expanded="true" signature="1116:1567" ph="..." />
-            <marker date="1523763052029" expanded="true" signature="1170:1236" ph="..." />
-            <marker date="1523763052029" expanded="true" signature="1170:1286" ph="..." />
-            <marker date="1523763052029" expanded="true" signature="1338:1542" ph="..." />
-            <marker date="1523763052029" expanded="true" signature="1811:2091" ph="..." />
-            <marker date="1523763052029" expanded="true" signature="1932:1997" ph="..." />
-            <marker date="1523763052029" expanded="true" signature="1932:2068" ph="..." />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#60#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/views/likesView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        <state relative-caret-position="360">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
           <folding>
-            <marker date="1523763161981" expanded="true" signature="553:959" ph="..." />
-            <marker date="1523763161981" expanded="true" signature="608:945" ph="..." />
-            <marker date="1523763161981" expanded="true" signature="652:739" ph="..." />
-            <marker date="1523763161981" expanded="true" signature="781:928" ph="..." />
+            <marker date="1523769913441" expanded="true" signature="553:962" ph="..." />
+            <marker date="1523769913441" expanded="true" signature="608:948" ph="..." />
+            <marker date="1523769913441" expanded="true" signature="652:739" ph="..." />
+            <marker date="1523769913441" expanded="true" signature="781:931" ph="..." />
           </folding>
         </state>
       </provider>

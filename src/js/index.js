@@ -32,6 +32,7 @@ const controlLike = () =>{
 
     if(!state.likes.isLiked(currentID)){
         const newLike =state.likes.addLike(currentID,state.recipe.title,state.recipe.author, state.recipe.img);
+        console.log(state.likes)
         //toggle the button
         likesView.toggleLikebtn(true);
         //add likes to the UI list
@@ -39,6 +40,7 @@ const controlLike = () =>{
     }else{
         //remove like
         state.likes.deleteLike(currentID);
+        likesView.deleteLike(currentID);
         //toggle the button
         likesView.toggleLikebtn(false);
         //remove  likes to the UI list
@@ -120,7 +122,7 @@ elements.searchResPages.addEventListener('click' , e=>{
 
 const controlRecipe=async ()=>{
     const id =window.location.hash.replace('#' , '');
-    console.log(id);
+    //console.log(id);
     if(id){
         //1)prepare UI for change
         recipeView.clearRecipe();
